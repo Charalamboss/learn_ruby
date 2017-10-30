@@ -71,9 +71,9 @@
 #
 # Inside the "hello" function, put a single line containing a string that is *not* "Hello!". (Here we are simulating you making an honest mistake, so we can see what the error message looks like.)
 #
-#     def hello
-#       "whuh?"
-#     end
+  def hello
+   "whuh?"
+  end
 #
 # Save it. Run the test again.
 #
@@ -109,9 +109,9 @@
 #
 # In order to get the next test to pass, your function will need to accept an *argument*.
 #
-#     def greet(who)
-#       "Hello, #{who}!"
-#     end
+def greet(who)
+ "Hello, #{who}!"
+end
 #
 require "hello"
 
